@@ -8,8 +8,18 @@ h1 {
   font-size: 200px;
   color: crimson;
 }
+
+/* Cant seem to get DOm to style the way i want so adding css loop animation to show elements hidden in the original all black background */
+@keyframes colorChange{
+        0% { background-color: black; }  
+            25% { background-color: white; } 
+            50% { background-color: black; } 
+            75% { background-color: white; } 
+            100% { background-color: black; }
+}
 body {
-  background-color: black;
+  animation: colorChange 20s infinite;
+  /* background-color: black; */
 }
 h4 {
   font-size: 25px;
