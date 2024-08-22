@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Css/style.css" />
+    <script src="index.js" defer></script>
     <title>Vader Film Poster</title>
   </head>
-  Darth Vader: A Star Wars Story
+  <!-- this well be the header
+  Darth Vader: A Star Wars Story -->
   <body>
+    <!-- adding nav bar for DOm useage -->
+    <header>
+      <nav id="top-menu"></nav>
+      </header>
+
     <!-- try and put the Disney logo in the lower right corner of the h1 below -->
     <h1>A story of Evil in galaxy far far away...</h1>
-    <h2>Darth Vader: A Star Wars Story</h2>
-    <section>
+    <!-- <h2>Darth Vader: A Star Wars Story</h2> -->
+    <!-- have to add Ids to teh sections for nav bar and Dom uasge -->
+    <section id="Story"><h2>Darth Vader: A Star Wars Story</h2>
 
         <hr>
 
@@ -43,6 +51,7 @@
       />
     </div>
 </section>
+<section id="Cast"> <h2>Cast and Crew</h2>
     <div>
       <h3>Starring</h3>
       <ul>
@@ -60,9 +69,9 @@
         <li>Directed by: George Lucas</li>
       </ol>
     </div>
-
-    <h2>Vader Has Returned!</h2>
-    <hr>
+  </section>
+  <section id="Trailer"><h2>Vader Has Returned!</h2>
+    <!-- <hr> Going to re-add this hr line break using DOM -->
 
     <style>
       img {
@@ -91,5 +100,6 @@
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
     ></iframe>
+  </section>
   </body>
 </html>
