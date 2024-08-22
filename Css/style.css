@@ -1,0 +1,88 @@
+/* code below did nothing look up header styling later */
+/* head{
+    align-content: center;
+    font-size: 200px;
+    color: crimson;
+} */
+h1 {
+  font-size: 200px;
+  color: crimson;
+}
+body {
+  background-color: black;
+}
+h4 {
+  font-size: 25px;
+  align-content: center;
+}
+/* code below was changing all the text in div...didnt wotk so target elements individually */
+/* div{
+            height: 150px;
+            width: 125px;
+            margin-right: 400px;
+        } */
+h2 {
+  color: gold;
+  font-size: 28px;
+  align-content: center;
+  margin-left: 400px;
+}
+h3 {
+  color: rgb(183, 220, 20);
+  font-size: 24px;
+}
+p {
+  color: crimson;
+  font-size: 15px;
+}
+div {
+  color: crimson;
+  display: flex;
+  margin-left: 170px;
+}
+/* image not showing up on page using the background color below to see outline of size and shape of image once i get it show */
+img {
+  background-color: azure;
+}
+/* below code was trying to affect specific paragraph text by labeling it p1 doesn't work  */
+/* p1{
+            color: darkred;
+            align-content: space-evenly;
+            margin-right: 1000px;
+        } */
+
+div p {
+  color: darkred;
+  font-size: 19px;
+}
+ul {
+  font-size: larger;
+}
+ol {
+  font-size: larger;
+  color: blue;
+}
+
+/* ul +li and ul >li by themselves had no affect on code */
+
+/* the code below changes the color of the item in the list without affecting others */
+ul > li:first-child {
+  color: blue;
+}
+ /* messed up whole page code below */
+/* section{
+    width: 100%;
+    height: 10px;
+    background-color: beige;
+} */
+hr{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 4px;
+}
+h5{
+    font-size: 18px;
+    color: crimson;
+    align-content: center;
+    margin-left: 500px;
+}
